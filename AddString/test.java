@@ -32,6 +32,7 @@ public class test {
 		} else {
 			validate(args[0]);
 			validate(args[1]);
+			//Here
 			System.out.println(new AddStrings(args[0], args[1]).sum());
 			System.out.println(new AddNumbers(Integer.parseInt(args[0]),Integer.parseInt(args[1])).sum());
 		}	
